@@ -1,0 +1,54 @@
+.margin{
+    margin:0 10px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin:10px 30px;
+    border-radius: 10px;
+    width:350px;
+}
+.card-img-top{
+    height:300px;
+    display:block;
+    width:100%;
+}
+.card-body{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;background-color: rgba(0, 0, 0, 0.15);
+    overflow:hidden;
+    height:0;
+    display:none;
+    width:100%;
+    transition: 0.5s ease;
+}
+.card:hover .card-body{
+    height: 50%;
+    display: block;
+}
+.card-title{
+    color:white;
+}
+.dropdown-item{
+    margin:10px 0px;
+}
+.black{
+    color:black;
+    font-weight: bold;
+}
